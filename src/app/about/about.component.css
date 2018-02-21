@@ -1,0 +1,58 @@
+.about {
+    display: block;
+    margin: 180px 0 180px 0;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.block2 {
+    font-family: 'PT Serif', serif;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    width: 300px;
+    position: absolute;
+    right: 900px;
+    top: 200px;
+    z-index: 1;
+    animation-duration: 2s;
+    animation-name: sliding-vertically;
+}
+
+@keyframes sliding-vertically {
+    from {
+        margin-right: 100%;
+        width: 300%;
+    }
+    to {
+        margin-right: 0%;
+        width: 425;
+    }
+}
+
+.block1 {
+    animation-duration: 3s;
+    text-align: right;
+    animation-name: slidein;
+    margin: 20px 0 200px 0;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 100%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.about-description {
+    font-family: 'PT Serif', serif;
+    font-size: 19px;
+    margin: 0 auto;
+    width: 700px;
+    justify-content: center;
+    text-align: center;
+}

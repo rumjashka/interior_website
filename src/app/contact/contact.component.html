@@ -1,0 +1,51 @@
+<div class="contact-main">
+    <div class="contact">
+        <img src="assets/contact1.jpg" style="height: 800px">
+        <div class="address">
+            <div (click)="toggle()" class="address1">
+                <div class="address-title">
+                    <h1 style="
+                        margin-left: 20px;margin-bottom:0;">Crecoleta</h1>
+                </div>
+                <div [@popOverState]="stateName" class="address-body">
+                    <p>Sadovaya 1437
+                        <br> Crecoleta, CP 113
+                        <br> Moscow, Russia
+                        <br> Tel:1235.3226/ 4813.5594
+                        <br> Lunes a viernes de 10 a 19.30 hs. 
+                        <br> Sabados de 10.30 a 13.30 hs
+                        <br> decor@interior.com.ru
+                    </p>
+                </div>
+            </div>
+            <div class="address2" (click)="toggle()">
+                <div class="address-title">
+                    <h1 style="
+                margin-left: 60px; margin-bottom:0;">Petersburgo</h1>
+                </div>
+                <div [@popOverState]="stateName2" class="address-body2">
+                    <p>Perova str 127
+                        <br> Saint Petersburg
+                        <br> CP 1643
+                        <br> Russian Federation,
+                        <br> Tel:3237.4012 / 12
+                        <br>Lunes a viernes de 9 a 19 hs.
+                        <br> Sabados de 10 a 13.30 hs. decor@interior.com.ru
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="email">
+        <a href="mailto:info@infomail.com" style="color:black">info@infomail.com</a>
+    </div>
+    <ul class="share-buttons">
+        <li>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=&quote=" title="Share on Facebook" target="_blank"><img alt="Share on Facebook" src="assets/Facebook.png" style="width:60px" /></a>
+        </li>
+        <li>
+            <a href="http://pinterest.com/pin/create/button/?url=&description=" target="_blank" title="Pin it"><img alt="Pin it" src="assets/Pinterest.png" style="width:60px" /></a>
+        </li>
+    </ul>
+</div>

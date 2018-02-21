@@ -1,0 +1,21 @@
+.footer-main {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.16), 0 0 10px 0 rgba(0, 0, 0, 0.12);
+    background-color: rgb(233, 227, 227);
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0 0 0;
+    align-items: center;
+}
+
+.footer {
+    margin: 0 auto;
+    font-family: 'PT Serif', serif;
+    font-size: 16px;
+}
+
+.footer-menu a {
+    display: block;
+    padding: 10px;
+}

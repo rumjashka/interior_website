@@ -1,0 +1,116 @@
+.contact-main {
+    display: block;
+    margin: 180px 0 180px 0
+}
+
+.address {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.contact .address {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    top: 350px;
+    left: 300px;
+    padding: 0 20px 40px 20px;
+}
+
+.address-title {
+    color: #bc947a;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.address-title:after {
+    background-color: #bc947a;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+
+.address-title:hover:after,
+.address-title:focus:after {
+    width: 100%;
+}
+
+.address-body {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.address-body2 {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.address2 {
+    margin: 0 0 0 60px;
+}
+
+.address1 {
+    margin: 0 60px 0 0;
+}
+
+.email {
+    color: black;
+    font-size: 50px;
+    font-family: 'PT Serif', serif;
+    text-decoration: none;
+    margin: 120px 500px 70px 500px;
+}
+
+.email:after {
+    background-color: #000000;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+
+.email:hover:after,
+.email:focus:after {
+    width: 100%;
+}
+
+a :visited {
+    color: black;
+}
+
+.share-buttons {
+    width: 140px;
+    margin: 0 auto;
+}
+
+ul.share-buttons {
+    list-style: none;
+    padding: 0;
+}
+
+ul.share-buttons li {
+    display: inline;
+}
+
+ul.share-buttons .sr-only {
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}

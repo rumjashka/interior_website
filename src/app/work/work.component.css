@@ -1,0 +1,41 @@
+.work-main {
+    display: block;
+    margin: 180px 0 180px 0
+}
+
+.work-t {
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+    text-align: center;
+    margin: 40px 0 40px 300px;
+    position: static;
+    letter-spacing: 0.1em;
+}
+
+.imagef {
+    width: 1200px;
+    transition: transform .5s;
+    position: relative;
+    top: 120px;
+    display: block;
+    margin: 60px 0 0 60px;
+}
+
+.imagef:hover {
+    transform: scale(1.1);
+    margin: 60px 0 0 60px;
+}
+
+.imagef .content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(134, 128, 128, 0.5);
+    color: #d3d2d2;
+    width: 105%;
+    padding: 20px;
+}
+
+.work-title {
+    font-family: 'PT Serif', serif;
+    font-size: 44px;
+}

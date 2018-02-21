@@ -1,0 +1,20 @@
+.app-photo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.photo-main .slogan {
+    position: absolute;
+    bottom: 0;
+    left: 420px;
+    top: 790px;
+    color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    padding: 20px;
+}
+
+.slogan-design {
+    font-family: 'PT Serif', serif;
+    font-size: 65px;
+}
